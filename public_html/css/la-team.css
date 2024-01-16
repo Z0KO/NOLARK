@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 16 nov. 2023, 10:34:15
+    Author     : Mathieu
+*/
+
+#text{
+    color: black;
+    margin-top: 70px;
+}
+#teammap li{
+    list-style-type: none;
+}
+#teammap li a{
+    background: transparent;
+    display:block;
+    height: 0;
+    overflow:hidden;
+    position:absolute;
+    width: 165px;
+    padding-top: 245px;
+}
+#membre0 {left: 260px; top: 450px;}
+#membre2 {left: 430px; top: 420px;}
+#membre3 {left: 605px; top: 370px;}
+#membre4 {left: 780px; top: 405px;}
+#membre5 {left: 930px; top: 460px;}
+#teamnap li a:hover {border: lpx dashed black;}
+#teammap li a:hover.homme {background-color : rgba(0, 0, 255, 0.1);}
+#teammap li a:hover.femme {background-color : rgba(255, 0, 0, 0.1);}
+/*Smartphonr*/
+@media only screen and (max-device-width: 320px) {
+    #reco {height: auto 190px !important}
+
+
+}

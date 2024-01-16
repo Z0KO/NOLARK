@@ -1,0 +1,143 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 13 nov. 2023, 12:31:04
+    Author     : Mathieu
+*/
+
+
+input[type="email"]:valid{
+    color: green;
+}
+input[type="email"]:invalid{
+    color: red;
+}
+
+input[type="text"]:valid{
+    color: green;
+}
+input[type="text"]:invalid{
+    color: red;
+}
+
+input[type="text"]:valid{
+    color: green;
+}
+input[type="text"]:invalid{
+    color: red;
+}
+
+input[type="url"]:valid{
+    color: green;
+}
+input[type="url"]:invalid{
+    color: red;
+}
+
+#h{
+    color: black;
+    margin-left: 370px;
+    margin-top: 70px;
+}
+#coordo{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 0px;
+    border-radius: 2px;
+    padding: 20px;
+}
+#coordo2{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 578px;
+    border-radius: 2px;
+    padding: 20px;
+}
+#controles{
+    position: absolute;
+    margin-top: 472px;
+    margin-left: 540px;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+#chk_kenny{
+    margin-left: 20px;
+}
+#chk_ica{
+    margin-left: -4px;
+}
+#chk_helstons{
+    margin-left: 32px;
+}
+#chk_givi{
+    margin-left: 6px;
+}
+#chk_falco{
+    margin-left: 12px;
+}
+#chk_darts{
+    margin-left: 12px;
+}
+#chk_caberg{
+    margin-left: 22px;
+}
+#chk_bell{
+    margin-left: 3px;
+}
+#chk_agv{
+    margin-left: 2px;
+}
+#chk_knox{
+    margin-left: -12px;
+}
+#chk_icon{
+    margin-left: -14px;
+}
+#chk_hjc{
+    margin-left: -18px;
+}
+#chk_gpa{
+    margin-left: -18px;
+}
+#chk_fox{
+    margin-left: -21px;
+}
+#chk_dg{
+    margin-left: -27px;
+}
+#chk_cameron{
+    margin-left: 11px;
+}
+#chk_bering{
+    margin-left: -4px;
+}
+#chk_airoh{
+    margin-left: -10px;
+}
+#chk_inox{
+    margin-left: -3px;
+}
+#chk_hokkey{
+    margin-left: 18px;
+}
+#chk_grex{
+    margin-left: -1px;
+}
+#chk_furygan{
+    margin-left: 22px;
+}
+#chk_diesel{
+    margin-left: 12px;
+}
+#chk_chaft{
+    margin-left: 10px;
+}
+#chk_bultaco{
+    margin-left: 24px;
+}
+#chk_araï{
+    margin-left: -19px;
+}

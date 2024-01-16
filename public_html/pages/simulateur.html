@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nolark Simulateur</title>
+        <meta charset="UTF-8">
+  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mathieu FERRIERE"/>
+
+        <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="../css/casques.css"/>
+        <link rel="stylesheet" href="../css/nouscontacter.css"/>
+        
+        <script src="../JS/remuneration.js"></script>
+        
+</head>
+<body>
+    <header>
+        <nav> 
+            <ul>
+                
+                 <li><a href="../index.html"> Accueil</a></li>
+                <li><a href="route.html"> Route</a></li>
+                <li><a href="cross.html"> Cross</a></li><!-- comment -->
+                <li><a href="piste.html"> Piste</a></li><!-- comment -->
+                <li><a href="enfants.html"> Enfants</a></li><!-- comment -->
+                <li><a href="la-team.html"> La Team</a></li>
+                <li><a href="nous-contacter.html"> Nous contacter</a></li>
+                <li><a href="simulateur.html"> Simulateur</a></li>
+                <li><a href ="transport.html">Transport</a></li>
+                <li><a href ="alcool.html">Alcoolémie</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="forme"><h1>Calculer votre rémunération grâce à ce simulateur</h1></section>
+    
+    <form id="form_simulateur" name="form_simulateur">
+        <fieldset id="resultats">
+            <legend>Vos Résultats</legend>
+            <p>
+                <label for="nbAncien">Nombre d'années d'ancienneté : </label>
+                <input type="number" name="num_ancien" id="num_ancien" min="0" max="50" value="0">
+            </p>
+            
+            <p>
+                <label for ="nbS20">Nombre de S 20 vendus</label>
+                <input type="number" name="num_s20" id="num_s20" min ="0" max="999" value="0">
+            </p>
+            
+            <p>
+                <label for="nbXS">Nombre d'X-Spirit vendus</label>
+                <input type="number" name="num_xspirit" id="num_xspirit" min="0" max="999" value="0">
+            </p>
+            
+            <p>
+                <label for ="nbMulti">Nombre de Multitec vendus</label>
+                <input type="number" name="num_multi" id="num_multi" min="0" max="999" value="0">
+            </p>
+            
+            <p>
+                <label for ="nbKm">Distance parcourus</label>
+                <input type="number" name="num_km" id="num_km" min="0" max="9999" value="0">
+            </p>
+            <h2 id="remuneration"></h2>
+            <p>
+                <input type="reset" name="rst_annuler" value="Effacer les données" />
+            </p>
+            
+    </form>
+    
+
+    
+        <footer><p> 2023 Nolark - crée par <a href="mailto:mathieu001945@gmail.com">Mathieu</footer>
+    
+</body>
